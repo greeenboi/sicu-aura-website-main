@@ -1,4 +1,5 @@
 import Hero from "./Hero"
+import Join from "./Join"
 
 export const metadata = {
   title: 'Sicu Aura',
@@ -10,7 +11,7 @@ export default function Home() {
   return (
     <main className="flex flex-col w-screen h-auto">
       <Hero />
-      <h1>hehe</h1>ellooo
+      <Join />
     </main>
   )
 }
