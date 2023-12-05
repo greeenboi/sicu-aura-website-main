@@ -44,15 +44,7 @@ const Join = () => {
 
   return (
     <main className='w-screen h-screen flex-col justify-center items-center'>
-        <TransitionGroup>
-          <CSSTransition
-            key={index}
-            timeout={500}
-            classNames="fade"
-          >
-            {components[index]}
-          </CSSTransition>
-        </TransitionGroup>
+        {components[index]}
         <div className='flex flex-row w-screen h-auto justify-center items-center'>
           <DotIndicator index={index} />
         </div>
